@@ -1,3 +1,4 @@
-LIBES=-lmingn
+CC=gcc
+LDLIBS=-lmingn
 
-hw:	hw.c
+hw:	hw.o
